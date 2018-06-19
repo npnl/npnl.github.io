@@ -122,8 +122,6 @@ function getCategoryValues(age, education){
 		}
 	}
 
-	console.log("The a mean is " +a_mean);
-
 	return {a_mean: a_mean, a_sd: a_sd, b_mean: b_mean, b_sd: b_sd}
 };
 
@@ -138,8 +136,6 @@ function calculateStatistics(){
 	var tmt_b = document.getElementById('input_tmt_b').value;
 
 	category_values = getCategoryValues(age, education);
-
-	console.log(category_values);
 
 	cal_1 = ((category_values.a_mean - tmt_a)/category_values.a_sd).toFixed(1);
 	cal_2 = ((category_values.b_mean - tmt_b)/category_values.b_sd).toFixed(1);

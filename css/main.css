@@ -4,6 +4,10 @@ html, body { min-height: 100%; }
 	margin-top: 50px;
 }
 
+#text1, #text2{
+	font-size: 20px;
+}
+
 .image_background {
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	text-align: center;
