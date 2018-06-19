@@ -1,0 +1,39 @@
+html, body { min-height: 100%; }
+
+.main-content {
+	margin-top: 50px;
+}
+
+.image_background {
+	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	text-align: center;
+	color: #f8f8f8;
+	background: url("/assets/bakground-min.jpg");
+
+	/* Full height */
+	height: 100%; 
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	.statistics{
+		margin-top: 10%;
+	}
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.statistics{
+		margin-top: 1%;
+	}
+}
