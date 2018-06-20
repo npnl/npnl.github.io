@@ -141,7 +141,7 @@ function calculateStatistics(){
 	cal_2 = ((category_values.b_mean - tmt_b)/category_values.b_sd).toFixed(1);
 
 	var position;
-	if(cal_1 > 0){
+	if(cal_1 < 0){
 		position = "below";
 	}
 	else {
@@ -151,7 +151,7 @@ function calculateStatistics(){
 	cal_1 = Math.abs(cal_1);
 	text1.innerHTML = "TMT A is " + cal_1 + " SD "+ position +" the mean.";
 
-	if(cal_2 > 0){
+	if(cal_2 < 0){
 		position = "below";
 	}
 	else {
