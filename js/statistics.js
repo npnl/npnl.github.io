@@ -149,7 +149,7 @@ function calculateStatistics(){
 	}
 
 	cal_1 = Math.abs(cal_1);
-	text1.innerHTML = "TMT A is " + cal_1 + " SD "+ position +" the mean.";
+	text1.innerHTML = "Performance on TMT A is " + cal_1 + " SD "+ position +" the mean.";
 
 	if(cal_2 < 0){
 		position = "below";
@@ -158,7 +158,7 @@ function calculateStatistics(){
 		position = "above";
 	}
 	cal_2 = Math.abs(cal_2);
-	text2.innerHTML = "TMT B is " + cal_2 + " SD "+ position +" the mean.";
+	text2.innerHTML = "Performance on TMT B is " + cal_2 + " SD "+ position +" the mean.";
 	$("html, body").animate({ scrollTop: document.body.scrollHeight }, "slow");
 };
 
