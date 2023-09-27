@@ -8,25 +8,47 @@
       border: 1px solid;
       border-collapse: collapse;
     }
+    #table1 th, #table1 td, #table1 tr
+    {
+      text-align:center;
+      border:none;
+    }
+    a:link, a:visited {
+    color: (internal value);
+    text-decoration: none;
+    cursor: pointer;
+    }
+    hr {
+      border: 2px solid darkgoldenrod;
+    }
   </style>
 </head>
+
 <body style="background-color:rgb(27, 27, 27);">
 
-  <br>
-  <p>
-    &emsp;&emsp;
-    <button type="button" style="text-align:center">
-      <a href="https://npnl.github.io/" style="color:black;font-size:15px" target="_self">
-        Back to Makerspace
-      </a>
-    </button>
-    &emsp;&emsp;
-    <button type="button" style="text-align:center">
-      <a href="https://chan.usc.edu/npnl" style="color:black;font-size:15px" target="_self">
-        Back to NPNL
-      </a>
-    </button>
-  </p>
+  <table style="width:100%;border:none;" id="table1">
+    <tr>
+      <th colspan="2">
+        <img src="../images/banner.png" alt="Makerspace flyer" width=100% style="float:center">
+      </th>
+    </tr>
+    <tr>
+      <td style="text-align:center">
+        <button type="button" style="text-align:center">
+          <a href="https://npnl.github.io/" style="color:black;font-size:15px" target="_self">
+            Back to Makerspace
+          </a>
+      </td>
+      <td style="text-align:center">
+        <button type="button" style="text-align:center">
+          <a href="https://chan.usc.edu/npnl" style="color:black;font-size:15px" target="_self">
+            Back to NPNL
+          </a>
+        </button>
+      </td>
+    </tr>
+  </table>
+
 <hr>
 
 <h2 style="color:aliceblue;">Available equipment</h2>
